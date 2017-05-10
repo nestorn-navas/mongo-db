@@ -2,6 +2,7 @@ const assert = require('assert');
 const User = require('../src/user');
 
 describe('deleting a user', () => {
+
 	let joe;
 
 	beforeEach((done)=>{
